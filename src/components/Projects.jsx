@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: 'E-Commerce Web Application',
       description: 'A full-stack e-commerce platform with authentication, product listing, cart, and order management. Built REST APIs and integrated MongoDB database.',
-      image: '/assets/project-ecommerce.png',
+      image: 'assets/project-ecommerce.png',
       tech: ['React', 'Node.js', 'Express', 'MongoDB'],
       github: 'https://github.com/nagaraj1295/ecommerce.git',
       demo: '#',
@@ -17,7 +17,7 @@ const Projects = () => {
     {
       title: 'Real-Time Chat Web Application',
       description: 'Built a real-time one-to-one chat application with user authentication and live messaging. Managed online/offline status and message timestamps.',
-      image: '/assets/project-todo.png', 
+      image: 'assets/project-todo.png', 
       tech: ['React', 'Socket.io', 'Node.js', 'MongoDB'],
       github: 'https://github.com/nagaraj1295/Modern-Todo.git', 
       demo: '#',

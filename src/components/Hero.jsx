@@ -115,7 +115,7 @@ const Hero = () => {
         >
           <div className="relative z-10 w-full max-w-md mx-auto aspect-[4/5] rounded-[40px] overflow-hidden border-8 border-white shadow-[0_50px_100px_-20px_rgba(37,99,235,0.15)] group">
             <img 
-              src="/assets/profile.png" 
+              src="assets/profile.png" 
               alt="Nagaraj C" 
               className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
             />
