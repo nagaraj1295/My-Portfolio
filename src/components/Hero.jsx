@@ -125,14 +125,14 @@ const Hero = () => {
           <motion.div
             animate={{ y: [0, -20, 0] }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute -top-10 -right-10 w-24 h-24 bg-white rounded-3xl shadow-xl flex items-center justify-center -rotate-12 z-20"
+            className="hidden md:flex absolute -top-10 -right-10 w-24 h-24 bg-white rounded-3xl shadow-xl items-center justify-center -rotate-12 z-20"
           >
             <div className="w-20 h-20 bg-primary/10 rounded-xl flex items-center justify-center text-primary font-bold"><img src="assets/mongodb.png" alt="Mongo db icon" /></div>
           </motion.div>
           <motion.div
             animate={{ y: [0, 20, 0] }}
             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-            className="absolute -bottom-10 -left-10 w-24 h-24 bg-white rounded-3xl shadow-xl flex items-center justify-center rotate-12 z-20"
+            className="hidden md:flex absolute -bottom-10 -left-10 w-24 h-24 bg-white rounded-3xl shadow-xl items-center justify-center rotate-12 z-20"
           >
             <div className="w-20 h-20 bg-secondary/10 rounded-xl flex items-center justify-center text-secondary font-bold"><img src="assets/React.png" alt="React icon" /></div>
           </motion.div>
