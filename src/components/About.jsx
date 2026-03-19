@@ -38,7 +38,7 @@ const About = () => {
             <div className="relative group">
               <div className="absolute inset-0 bg-primary/10 rounded-[50px] rotate-3 group-hover:rotate-0 transition-transform duration-500" />
               <img 
-                src="/assets/profile-photo.png" 
+                src="/assets/profile.png" 
                 alt="Nagaraj C" 
                 className="relative z-10 w-full rounded-[50px] shadow-2xl border-8 border-white group-hover:scale-[0.98] transition-transform duration-500"
               />
