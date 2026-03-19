@@ -21,10 +21,10 @@ const About = () => {
     <section id="about" className="py-24 bg-white relative overflow-hidden">
       {/* Decorative Blur */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
-      
+
       <div className="container mx-auto px-6">
-        <SectionHeader 
-          title="About Me" 
+        <SectionHeader
+          title="About Me"
           subtitle="A blend of data analytical precision and modern web development passion."
         />
 
@@ -37,9 +37,9 @@ const About = () => {
           >
             <div className="relative group">
               <div className="absolute inset-0 bg-primary/10 rounded-[50px] rotate-3 group-hover:rotate-0 transition-transform duration-500" />
-              <img 
-                src="assets/profile.png" 
-                alt="Nagaraj C" 
+              <img
+                src="assets/profile - Copy.png"
+                alt="Nagaraj C"
                 className="relative z-10 w-full rounded-[50px] shadow-2xl border-8 border-white group-hover:scale-[0.98] transition-transform duration-500"
               />
               <div className="absolute -bottom-6 -right-6 z-20 bg-secondary text-white p-6 rounded-[32px] shadow-xl">
@@ -58,9 +58,15 @@ const About = () => {
             <h3 className="text-3xl font-black text-secondary mb-6 leading-tight">
               Entry-level Full Stack (MERN) Developer with <span className="text-primary italic">6+ years background in Inventory and Data Handling.</span>
             </h3>
-            
+
             <p className="text-lg text-dark/70 leading-relaxed mb-8 font-medium">
-              I am a quick learner who can adapt and work effectively in any convenient time frame. I speak in a friendly and polite manner, maintaining respect for all colleagues regardless of seniority. I enjoy developing creative solutions and workflows to simplify tasks for myself and my team.
+              I am a Full Stack (MERN) Developer with hands-on
+              project experience.
+              Strong in JavaScript, React, Node.js, MongoDB, Excel and
+              basic Python.
+              Coming from an inventory/data handling background
+              with a strong problem-solving mindset and consistent
+              task delivery.
             </p>
 
             <div className="grid grid-cols-2 gap-4 mb-10">
