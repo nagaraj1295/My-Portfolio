@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-12 pb-16 border-b border-white/10">
           <div className="md:col-span-2">
             <a href="#home" className="text-3xl font-black tracking-tighter mb-6 inline-block">
-              NAGARAJ<span className="text-primary">.C</span>
+              NAGARAJ<span className="text-primary"> C</span>
             </a>
             <p className="text-white/60 text-lg max-w-sm leading-relaxed mb-8">
               Analytical thinker, problem solver, and full-stack explorer. Bringing 6+ years of data precision to modern web development.

@@ -39,7 +39,7 @@ const Navbar = () => {
           animate={{ opacity: 1, x: 0 }}
           className="text-2xl font-black tracking-tighter text-secondary group"
         >
-          NAGARAJ<span className="text-primary group-hover:text-secondary mb-1">.C</span>
+          NAGARAJ<span className="text-primary group-hover:text-secondary mb-1"> C</span>
         </motion.a>
 
         {/* Desktop Nav */}
