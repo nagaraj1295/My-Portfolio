@@ -40,7 +40,7 @@ const Contact = () => {
     setStatus('sending');
     
     const formData = new FormData(e.target);
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE"); // Placeholder for user to fill
+    formData.append("access_key", "aabf08e5-4505-4736-bddf-55293a4a08b5"); // Placeholder for user to fill
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
